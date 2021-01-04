@@ -1,10 +1,5 @@
-import { Header, Main } from 'containers'
+import { Layout } from 'layouts'
 
 export default function App() {
-  return (
-    <div>
-      <Header></Header>
-      <Main></Main>
-    </div>
-  )
+  return <Layout></Layout>
 }
