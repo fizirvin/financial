@@ -3,7 +3,7 @@ import styled from '@emotion/styled'
 export const ContainerArea = styled.div`
   display: grid;
   grid-template-columns: 1fr;
-  grid-template-rows: 4rem 100vh 4rem;
+  grid-template-rows: 4rem 100vh 90vh;
   grid-template-areas:
     'header'
     'main'

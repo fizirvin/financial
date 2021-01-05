@@ -1,5 +1,5 @@
 import Nav from '../header'
-import { ContainerArea, HeaderArea, MainArea } from 'containers'
+import { ContainerArea, FooterArea, HeaderArea, MainArea } from 'containers'
 
 export default function Layout({ children }) {
   return (
@@ -8,6 +8,7 @@ export default function Layout({ children }) {
         <Nav />
       </HeaderArea>
       <MainArea>{children}</MainArea>
+      <FooterArea id={'footer'}>FooterArea</FooterArea>
     </ContainerArea>
   )
 }
